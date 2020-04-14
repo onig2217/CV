@@ -1,0 +1,155 @@
+/* BODY */
+
+.container {
+  
+  
+  border: 1.5px solid black;
+  box-shadow: 5px 5px 5px black;
+}
+body {
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+}
+
+[class*="col-"], footer {
+ } 
+
+/* SECTION */
+
+section .row #formation {
+	padding-left: 30px;
+	padding-right: 50px;
+}
+section .row #exppro {
+	padding-left: 30px;
+	padding-right: 50px;
+}
+section .row #foot {
+	padding-left: 30px;
+	padding-right: 50px;
+}
+			/* ENTETE */
+
+section .row #entete {
+	padding-left: 80px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.unli {
+	text-decoration: underline;
+	text-decoration-color: #e53935;
+	text-underline-position: under;
+}
+#name {
+	font-size: 3em;
+}
+
+			/* FORMATION */
+
+.form {
+	display: flex;
+	border-bottom: 1.5px solid #e53935;
+}
+#int_form_bac {
+	display: flex;
+	margin-top: 10px;
+}
+#int_form_bts {
+	display: flex;
+	margin-top: 10px;
+}
+#int_form_oc {
+	display: flex;
+	margin-top: 20px;
+}
+.int_titre {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+
+			/* EXPERIENCE PROFESSIONELLE */
+
+.exp {
+	display: flex;
+	border-bottom: 1.5px solid #e53935;
+}
+#exppro {
+	padding-top: 10px;
+}
+#int_exp_stage {
+	display: flex;
+	margin-top: 10px;
+}
+#int_exp_sc {
+	display: flex;
+	margin-top: 20px;
+}
+
+			/* DISTINCTIONS */
+
+.reco {
+	display: flex;
+	border-bottom: 1.5px solid #e53935;
+}
+#foot {
+	padding-top: 10px;
+}
+#dist_list {
+	display: flex;
+	margin-top: 20px;
+	margin-left: 30px;
+}
+
+ /* NAV */ 
+
+  
+
+.row nav {
+	background-color:  #e53935;
+	text-align: center;
+
+}
+
+nav h2 {
+	
+	background: #212121;
+	color: #e53935;
+	text-align: center;
+	text-transform: uppercase;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	font-size: 1.5em;
+	/* font-family: "Trébuchet MS", Arial, serif; */
+
+}
+nav p {
+	color: white;
+	padding-top: 15px;
+	padding-bottom: 15px;
+
+}
+nav img {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+
+.row .name {
+	color: #e53935;
+}
+.loisir {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	display: flex;
+	/* flex-direction: column; */
+	justify-content: space-around;
+	align-content: center;
+	
+}
+p {
+	padding-left: 3px;
+	padding-right: 3px;
+	word-wrap: break-word;
+}
