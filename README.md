@@ -1,2 +1,0 @@
-# CV
-my cv oc
