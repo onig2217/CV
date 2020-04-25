@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 
 <head>
 	<title> Curriculum Vitae </title>
 	<meta charset="utf-8"/>
 	<meta name="description" content="Mon CV, en site !">
-	<link rel="stylesheet" type="text/css" href="testP1.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
 	<script src="https://kit.fontawesome.com/e340185547.js" crossorigin="anonymous"></script>
 </head>
 
@@ -14,92 +15,92 @@
 
 	<div class="container">
 		<div id="bloc" class="row">
-			<nav id="navigation" class="col-md-3 p-0">
-				<article>
-					<img src="lajij.png" alt="">
-				</article>
-				<article id="entete2" class="d-block d-md-none col-md-12">
-					<h1 id="name" class="col-xs-12"> <span class="name2">GINO</span> MIGNANO </h1>
+			<aside id="navigation" class="col-md-3 p-0">
+				<div>
+					<img src="lajij.png" alt="Mon portrait">
+				</div>
+				<div id="entete2" class="d-block d-md-none col-md-12">
+					<h2 class="col-xs-12 name heading_aside_xs"> <span class="name_xs_color">GINO</span> MIGNANO </h2>
 					<h3> <span class="unli2">Dével</span>oppeur Web </h3>
-				</article>
-				<article>
-					<h2> Contact </h2>
-					<p> Adresse :</br> La Rochelle, France </p>
-					<p> Téléphone :</br> 06 61 96 XX XX </p>
-					<p> E-mail :</br> mignanogino@gmail.com </p>
-				</article>
-				<article>
-					<h2 > A propos de moi </h2>
+				</div>
+				<div>
+					<h2 class="heading_aside_lg"> Contact </h2>
+					<p> Adresse :<br /> La Rochelle, France </p>
+					<p> Téléphone :<br /> 06 61 96 XX XX </p>
+					<p> E-mail :<br /> mignanogino@gmail.com </p>
+				</div>
+				<div>
+					<h2 class="heading_aside_lg"> A propos de moi </h2>
 					<p> Age : 23 </p>
-					<p> Parti d'un baccalauréat STI2D avec des premières bases en programmation pour gérer de la domotique, ce premier projet m'a captivé. </br>
-					Après une erreur d'orientation dans le domaine de l'industrie, j'ai voulu retourner à mes bases. </br>
+					<p class="about_me"> Parti d'un baccalauréat STI2D avec des premières bases en programmation pour gérer de la domotique, ce premier projet m'a captivé.
+					Après une erreur d'orientation dans le domaine de l'industrie, j'ai voulu retourner à mes bases.
 					Ainsi, j'ai décidé d'intégrer une formation pour devenir Développeur web.</p>
-				</article>
-				<article class="d-none d-md-block">
-					<h2 id="loisirs"> Loisirs </h2>
+				</div>
+				<div class="d-none d-md-block">
+					<h2 class="heading_aside_lg"> Loisirs </h2>
 					<div class="loisir">
 						<i class="fas fa-music fa-3x"></i>
 						<i class="far fa-futbol fa-3x"></i>
 						<i class="fab fa-twitch fa-3x"></i>
 					</div>
-				</article>	
-			</nav>
+				</div>	
+			</aside>
 
-			<section id="section" class="col-md-9">
+			<section class="col-md-9">
 			
 				<div class="row">
 					<article id="entete" class="d-none d-md-block col-md-12">
-						<h1 id="name" class="col-xs-12"> <span class="name">GINO</span> MIGNANO </h1>
+						<h2 class="col-xs-12 name"> <span class="name_lg_color">GINO</span> MIGNANO </h2>
 						<h3 class="col-xs-12"> <span class="unli">Dével</span>oppeur Web </h3>
 					</article>
-					<article id="formation" class="col-md-12">
+					<article class="col-md-12 section_padding">
 						<div class="form"><i class="fas fa-graduation-cap fa-2x"></i> <h2 class="col-md-12"> Formation </h2></div>
 						<div class="col-lg-12 p-0">
-							<div id="int_form_oc">
-								<div id="date1" class="col-md-4 ">
-									<i class="far fa-circle"></i><p class="offset-sm-1">2020</br>La Rochelle</p>
+							<div class="int_section">
+								<div class="col-md-4 date">
+									<i class="far fa-circle"></i><p class="offset-1">2020<br />La Rochelle</p>
 								</div>
-								<div class="col-md-8 p-0">
+								<div class="col-md-8 int_section_done">
 									<p> 
-										<span class="int_titre">Open Classrooms</span> </br>
+										<span class="int_titre">Open Classrooms</span> <br />
 										Programmation front-end et back-end
 									</p>
 								</div>
 							</div>
-							<div id="int_form_bts">
-								<div id="date2" class="col-md-4 ">
-									<i class="fas fa-circle"></i><p class="offset-sm-1">2016 à 2018</br>La Rochelle</p>
+							<div class="int_section">
+								<div class="col-md-4 date">
+									<i class="fas fa-circle"></i><p class="offset-1">2016 à 2018<br />La Rochelle</p>
 								</div>
-								<div class="col-md-8 p-0">
+								<div class="col-md-8 int_section_done">
 									<p> 
-										<span class="int_titre">BTS CRSA</span> </br>
+										<span class="int_titre">BTS CRSA</span> <br />
 										Programmation industrielle, conception 3D (Solidworks)
 									</p>
 								</div>
 							</div>
-							<div id="int_form_bac">
-								<div id="date3" class="col-md-4 ">
-									<i class="fas fa-circle"></i><p class="offset-sm-1">2012 à 2015</br>La Rochelle</p>
+							<div class="int_section">
+								<div class="col-md-4 date">
+									<i class="fas fa-circle"></i><p class="offset-1">2012 à 2015<br />La Rochelle</p>
 								</div>
-								<div class="col-md-8 p-0">
+								<div class="col-md-8 int_section_done">
 									<p> 
-										<span class="int_titre">Baccalauréat STI2D (SIN)</span> </br>
+										<span class="int_titre">Baccalauréat STI2D (SIN)</span> <br />
 										Programmation (C++), réseaux, adressage, domotique
 									</p>
 								</div>
 							</div>
 						</div>
 					</article>
-					<article id="exppro" class="col-md-12 col-sm-12 col-xs-12">
+					<article class="col-md-12 col-sm-12 col-xs-12 section_padding">
 						<div class="exp"><i class="fas fa-briefcase fa-2x"></i><h2 class="col-md-12"> Expérience Professionelle </h2></div>
 						<div class="col-lg-12 p-0">
-							<div id="int_exp_sc">
-								<div id="date4" class="col-md-4 ">
-									<i class="fas fa-circle"></i><p class="offset-sm-1">2018 à 2019</br>Andilly</p>
+							<div class="int_section">
+								<div class="col-md-4 date">
+									<i class="fas fa-circle"></i><p class="offset-1">2018 à 2019<br />Andilly</p>
 								</div>
-								<div class="col-md-8 p-0">
+								<div class="col-md-8 int_section_done">
 									<p> 
-										<span class="int_titre">Service Civique Football</span> </br>
+										<span class="int_titre">Service Civique Football</span> <br />
 										Administration du club,
 										Gestion des entraînements pour les enfants,
 										Entretien des locaux,
@@ -107,13 +108,13 @@
 									</p>
 								</div>
 							</div>
-							<div id="int_exp_stage">
-								<div id="date5" class="col-md-4 ">
-									<i class="fas fa-circle"></i><p class="offset-sm-1">2017</br>La Rochelle</p>
+							<div class="int_section">
+								<div class="col-md-4 date">
+									<i class="fas fa-circle"></i><p class="offset-1">2017<br />La Rochelle</p>
 								</div>
-								<div class="col-md-8 p-0">
+								<div class="col-md-8 int_section_done">
 									<p> 
-										<span class="int_titre">Stage Formation BTS</span> </br>
+										<span class="int_titre">Stage Formation BTS</span> <br />
 										Production de pochette PVC,
 										Cahier des charges pour l’amélioration d’une machine
 
@@ -122,25 +123,22 @@
 							</div>
 						</div>
 					</article>
-					<footer id="foot" class="col-md-12">
+					<footer class="col-md-12 section_padding">
 						<div class="reco"><i class="fas fa-pencil-alt fa-2x"></i> <h2 class="col-md-12"> Distinctions </h2></div>
 						<div id="dist_list" class="col-lg-12 p-0">
 							<ul class="col-lg-3">
-								<h4>Code</h4>
 								<li> HTML </li>
 								<li> CSS </li>
 								<li> JavaScript </li>
 								<li> PhP </li>
 							</ul>
 							<ul class="offset-xs-1 col-lg-3">
-								<h4>Logiciel</h4>
 								<li> Photoshop </li>
 								<li> Solidworks </li>
 								<li> Excel </li>
 								<li> CodeBlocks </li>
 							</ul>
 							<ul class="offset-xs-1 col-lg-3">
-								<h4>Autre</h4>
 								<li> Permis B </li>
 								<li> Diplôme FFF U6-U7 </li>
 							</ul>
@@ -151,4 +149,3 @@
 		</div>
 	</div>
 </body> 
-</html>

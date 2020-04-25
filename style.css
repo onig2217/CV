@@ -1,0 +1,179 @@
+@media screen and (max-width: 768px){
+	
+	.int_section {
+		display: flex;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		flex-direction: column;
+		border: 1.5px solid black;
+  		box-shadow: 5px 5px 5px black;
+  		padding-top: 10px;
+	}
+	.int_section_done {
+		padding-left: 30px;
+	}
+}
+
+
+ 			/* COMMON */
+
+.date {
+	display: flex;
+}
+.int_section {
+	display: flex;
+	margin-top: 20px;
+}
+
+ 			/* ASIDE */ 
+
+aside {
+	background-color:  #e53935;
+	text-align: center;
+
+}
+
+.heading_aside_lg {
+	
+	background: #212121;
+	color: #e53935;
+	text-align: center;
+	text-transform: uppercase;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	font-size: 1.5em;
+	
+
+}
+.heading_aside_ {
+	
+	
+	color: #212121;
+	text-align: center;
+	text-transform: uppercase;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	font-size: 1.5em;
+	
+
+}
+aside p {
+	color: white;
+	word-wrap: break-word;
+	text-align: center;
+	padding-top: 15px; 
+	padding-bottom: 15px;
+	padding-right: 10px;
+	padding-left: 10px;
+
+}
+aside img {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.loisir {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	display: flex;
+	justify-content: space-around;
+	align-content: center;
+	
+}
+.about_me {
+	color: white;
+	word-wrap: break-word;
+	text-align: justify-all;
+	padding-right: 5%;
+	padding-left: 5%;
+} 
+	
+			/* BODY */
+
+.container {
+  
+  border: 1.5px solid black;
+  box-shadow: 5px 5px 5px black;
+}
+body {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: "Trébuchet MS", Arial, serif; 
+
+}
+			/* SECTION */
+
+.section_padding {
+	padding-left: 30px;
+	padding-right: 50px;
+}
+
+			/* ENTETE */
+
+#entete {
+	padding-left: 80px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+
+}
+#entete2 {
+	padding-left: 20px;
+	padding-bottom: 30px;
+	background-color: #e53935;
+}
+
+.unli2 {
+	text-decoration: underline;
+	text-decoration-color: white;
+	text-underline-position: under;
+}
+.unli {
+	text-decoration: underline;
+	text-decoration-color: #e53935;
+	text-underline-position: under;
+}
+.name {
+	font-size: 3em;
+}
+.name_lg_color {
+	color: #e53935;
+}
+.name_xs_color {
+	color: white;
+}
+
+			/* FORMATION */
+
+.form {
+	display: flex;
+	border-bottom: 1.5px solid #e53935;
+	padding-top: 10px;
+}
+.int_titre {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+
+			/* EXPERIENCE PROFESSIONELLE */
+
+.exp {
+	display: flex;
+	border-bottom: 1.5px solid #e53935;
+}
+
+
+
+			/* DISTINCTIONS */
+
+.reco {
+	display: flex;
+	border-bottom: 1.5px solid #e53935;
+}
+#dist_list {
+	display: flex;
+	margin-top: 20px;
+	margin-left: 30px;
+}
+
+ 
